@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width initial-scale=1.0"/>
+		<title>Demo site</title>
+		<style type="text/css">
+			body { margin: 0; }
+			#tumb { 
+				text-align: center;
+				font-family: monospace; font-size: 3em; font-weight: bold;
+				background-image: url("https://images.alphacoders.com/216/216821.jpg");
+				background-size: cover;
+				padding: 120px 120px;
+				color: white;
+
+			}
+			#item {
+				list-style-type: none;
+				width: 100%;
+				background-color: black;
+				margin: 0;
+			}
+			#item > li {
+				display: inline-block;
+				color: white;
+				font-weight: bold; font-family: monospace; font-size: 1.2em;
+				letter-spacing: 1px;
+				padding: 15px;
+			}
+			#nav {
+				position: sticky;
+				overflow: hidden;
+				top: 0;
+			}
+			#item > li:hover { background-color: red; }
+			#item > li { cursor: pointer; }
+			#nav-content {
+				display: none;
+				width: 100%;
+				background-color: grey;
+			}
+			#nav-content ul {
+				float: left;
+				margin-left: 180px;
+			}
+			#nav-content ul li {
+				padding: 3px;
+				font-size: 1.2em;
+			}
+			#footer {
+				text-align: center;
+				padding: 30px;
+				background-color: black;
+				color: white;
+				font-family: monospace; font-size: 1.5em;
+				margin-top: 1000px;
+			}
+			b {
+				color: red;
+			}
+		</style>
+		<script language="javascript" type="text/javascript">
+			<!--
+				var paddingTumb = 120;
+				function showItem() {
+					document.getElementById("nav-content").style.display = "block"
+				}
+				function hideItem() {
+					document.getElementById("nav-content").style.display = "none"
+				}
+			//-->
+		</script>
+	</head>
+
+	<body>
+		<div id="tumb">
+			<span>Welcome to Home</span>
+		</div>
+		<div id="nav">
+			<ul id="item">
+				<li>Home</li>
+				<li>Contact</li>
+				<li onmouseover="showItem();" onmouseout="hideItem();">Products</li>
+				<li>Download</li>
+			</ul>
+			<div id="nav-content" onmouseover="showItem();" onmouseout="hideItem();">
+				<ul>
+					<li>afjkdl</li>
+					<li>afsdjfç</li>
+					<li>fasdjfkl</li>
+					<li>fdajfl</li>
+				</ul>
+				<ul>
+					<li>afjkdl</li>
+					<li>afsdjfç</li>
+					<li>fasdjfkl</li>
+					<li>fdajfl</li>
+				</ul>
+				<ul>
+					<li>afjkdl</li>
+					<li>afsdjfç</li>
+					<li>fasdjfkl</li>
+					<li>fdajfl</li>
+				</ul>
+				<ul>
+					<li>afjkdl</li>
+					<li>afsdjfç</li>
+					<li>fasdjfkl</li>
+					<li>fdajfl</li>
+				</ul>
+			</div>
+		</div>
+		<div id="footer"><span>&copy 2002-2019 <b>Neemias santos</b></span></div>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+div {
+	height: 500px;
+	width: 60%;
+}
+
+#id1 {
+	position: relative; left: 280px; top: 30px;
+	background: -webkit-linear-gradient(green, yellow);
+	background: -moz-linear-gradient(green, yellow);
+	background: -o-linear-gradient(green, yellow);
+	background: linear-gradient(green, yellow);
+}
+
+#id2 {
+	position: relative; left: 280px; top: 100px;
+	background: -webkit-linear-gradient(right, blue, red);
+	background: -moz-linear-gradient(right, blue, red);
+	background: -o-linear-gradient(right, blue, red);
+	background: linear-gradient(right, blue, red);
+}

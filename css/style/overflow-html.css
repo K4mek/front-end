@@ -1,0 +1,19 @@
+body { background-color: tomato;}
+
+#visible { overflow: visible; }
+
+#hidden { overflow: hidden; }
+
+#scroll { overflow: scroll; }
+
+#auto { overflow: auto; }
+
+div {
+	width: 600px;
+	height: 400px;
+	margin: 50px;
+}
+
+img {
+	border: 3px solid blue;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>formulario demo</title>
+        <style type="text/css">
+            body {
+                background-image: url("https://wallpapertag.com/wallpaper/full/6/d/c/150456-most-popular-code-background-1920x1080-image.jpg");
+                background-size: 100%
+            }
+            input {
+                border: 2px solid;
+                border-radius: 10px;
+                padding: 15px;
+            }
+            fieldset {
+                border: 2px solid;
+                border-color: white;
+                padding: 25px;
+                width: 40%;
+                border-radius: 20px;
+            }
+            legend {
+                font-size: 200%;
+                color: white;
+            }
+            select {
+                padding: 15px;
+                font-size: 100%;
+                border-radius: 10px;
+                border: 2px solid;
+            }
+            input::-webkit-input-placeholder {
+                color: red;
+            }
+            hr {
+                border: 1px solid;
+                border-color: white;
+                width: 30%;
+                display: inline-block;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div align="center">
+            <br /><br /><br /><br /><br />
+            <form method="get">
+                <fieldset>
+                    <legend>User Input:</legend>
+                    <hr /><input type="text" name="nome" placeholder="seu nome" /><hr /><br /><br />
+                    <hr /><input type="password" name="pass" placeholder="sua senha" /><hr /><br /><br />
+                    <hr /><input type="text" name="email" placeholder="seu email" /><hr /><br /><br />
+                    <input type="button" name="button" value="enviar" /><br /><br />
+                    <select class="list" name="list">
+                        <option value="java">java</option>
+                        <option value="java">java script</option>
+                        <option value="java">ruby</option>
+                        <option value="java">python</option>
+                        <option value="java">c++</option>
+                        <option value="java">c#</option>
+                    </select>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+@charset "UFT-8";
+
+@font-face {
+	font-family: myFont;
+	src: url("HyperspaceBold.otf");
+}
+
+h3 { text-align: center; }
+
+#id1 { font-family: monospace; }
+
+#id2 { font-family: myFont; }

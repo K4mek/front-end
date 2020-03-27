@@ -1,0 +1,50 @@
+body { background-color: darkblue; margin: 0; }
+
+.nav {
+	background-color: black;
+	border: none;
+}
+
+li {
+	display: inline;
+	color: white;
+	font-family: monospace;
+	font-size: 200%;
+	margin: 10px;
+	border-radius: 10px;
+	padding: 10px;
+	cursor: default;
+}
+
+ul { padding: 30px; }
+
+li:hover { background-color: lightblue; color: black; }
+
+li:active { background-color: lightblue; color: red; }
+
+.section {
+	background-color: grey;
+	padding: 30px;
+}
+
+.article {
+	background-color: lightgrey;
+	height: 200px;
+	padding: 10px;
+	margin: 20px;
+	border-radius: 10px;
+}
+
+h3 { position: relative; left: 40px; }
+
+.footer {
+	background-color: black;
+	font-family: monospace;
+	color: white;
+	font-size: 120%;
+	height: 100px;
+}
+
+#style {
+	padding: 40px;
+}

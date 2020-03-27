@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>reload page</title>
+	</head>
+	<script>
+		<!--
+			function reloadPage() {
+				location.reload(true);
+			}
+			function refreshPage(t) {
+				setTimeout("location.reload(true);", t);
+			}
+		//-->	
+	</script>
+
+	<body onload="refreshPage(3000);">
+		<p>essa pagina vai ser atualizada a cada 3 segundos</p>
+		<span>atualiza agora: </span>
+		<input type="button" value="refresh now" onclick="reloadPage();">
+	</body>
+</html>

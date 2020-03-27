@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>try-catch try-catch-finally</title>
+		<script language="javascript" type="text/javascript">
+			<!--
+				window.onerror = function(msg, url, line) {
+					document.write("msg: "+msg+"<br/>");
+					document.write("url: "+url+"<br/>");
+					document.write("line: "+line+"<br/>");
+				}
+
+				function bodyToRed() {
+					document.body.style = "background-color: red"
+				}
+
+				function bodyToWhite() {
+					document.body.style = "background-color: white"
+				}
+
+				function anything() {
+					var a = 0;
+					var b = 123;
+
+					try {
+						if (a == 0) {
+							throw ("divide by zero error");
+						}
+					}
+					catch (e) {
+						alert(e);
+					}
+				}
+			//-->
+		</script>
+	</head>
+
+	<body>
+		<script>anything();</script>
+	</body>
+</html>

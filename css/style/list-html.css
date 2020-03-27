@@ -1,0 +1,45 @@
+body { background-color: grey; }
+
+.bg-div {
+    background-color: blue;
+    margin: 150px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.main-div {
+    background-color: lightblue;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+ul, li { text-align: left; }
+
+#ul1 {
+    list-style-type: circle;
+}
+
+#ul2 {
+    list-style-type: disc;
+}
+
+#ul3 {
+    list-style-type: square;
+}
+
+#ul4 {
+    list-style-type: decimal;
+}
+
+#ul5 {
+    list-style-type: lower-latin;
+}
+
+#ul6 {
+    list-style-type: lower-roman;
+}
+
+#ul7 {
+    list-style-image: url("https://cdn.pixabay.com/photo/2015/12/22/04/00/edit-1103599_960_720.png");
+}

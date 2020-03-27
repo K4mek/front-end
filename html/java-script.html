@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+	<html>
+	<head>
+		<title>Java Script(JS)</title>
+		<!-- usando JS externo -->
+		<script type="text/javascript" src="myFunction.js"></script>
+		<!-- usando JS interno -->
+		<script type="text/javascript">
+			function show() {
+				alert("alertando");
+			}
+		</script>
+		<link rel="stylesheet" type="text/css" href="sheets.css">
+	</head>
+
+	<body>
+		<center>
+			<h3>Java Script externo(.js)</h3>
+			<input type="button" name="alert" onclick="msg();" value="click aqui">
+			<hr class="border" />
+			<h3>Java Script interno</h3>
+			<input type="button" name="msg" onclick="show();" value="click aqui">
+			<hr class="border" />
+			<p class="red" onmouseover="msg();">passe o mouse para exibir um alerta</p>
+		</center>	
+	</body>
+</html>

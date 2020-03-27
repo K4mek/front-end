@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>write cookie</title>
+		<script language="javascript" type="text/javascript">
+			<!--
+				function writeCookie() {
+					if (document.myform.area.value == "") {
+						alert("no content");
+						return;
+					}
+					var cookies = escape(document.myform.area.value) + ";";
+					document.cookie = ("name="+cookies);
+					document.write("success => name="+cookies);			
+				}
+			//-->
+		</script>
+		<style type="text/css">
+			form {
+				width: 500px;
+				margin: auto;
+				margin-top: 30px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<form name="myform">
+			<span>name cookie: </span>
+			<input type="text" placeholder="cookie" name="area" />
+			<input type="button" value="send" onclick="writeCookie();" />
+		</form>
+	</body>
+</html>

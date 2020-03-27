@@ -1,0 +1,26 @@
+.bg-main-div {
+    background-color: grey;
+    padding: 20px;
+    border-radius: 10px;
+    height: 600px;
+}
+
+.bg-text-div {
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+}
+p {
+    font-size:150%;
+    font-family: monospace;
+    color: black;
+    word-spacing: 5px;
+}
+
+h3 {
+    font-family: monospace;
+    color: white;
+    font-size: 200%;
+    letter-spacing: 5px;
+    font-weight: bold;
+}

@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+body { margin: 0; overflow: hidden;}
+
+.container {
+	width: 50%;
+	border-bottom: 1px solid grey;
+}
+
+#box_left {
+	position: relative; left: 0;
+	background-color: #1da1f2;
+	float: left;
+	box-sizing: border-box;
+}
+
+#box_right {
+	position: relative; right: 0;
+	float: right;
+}
+
+#left_content {
+	color: white;
+}
+
+.container > div {
+	position: relative;
+	width: 550px;
+	height: auto;
+	top: 30%;
+	margin: auto;
+	font-size: 1.7em;
+}
+
+table {
+	margin-top: 25px;
+}
+
+input {
+	padding: 12px;
+	border-radius: 5px;
+	border: 1px solid lightgrey;
+}
+
+td > button {
+	padding: 12px;
+	border: 1px solid #1da1f2; border-radius: 20px; border-color: #1da1f2;
+	background-color: white;
+	color: #1da1f2;
+	outline: none;
+}
+
+td > button:hover {
+	background-color: #e6faff;
+	cursor: pointer;
+}
+
+td > button:active {
+	background-color: #0000cc;
+	color: white;
+}
+
+a:link {
+	text-decoration: none;
+	color: grey;
+}
+
+a:visited {
+	color: grey;
+}
+
+a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#register {
+	position: absolute;
+	width: 350px;
+	left: 150px;
+}
+
+i[class="fab fa-twitter"] {
+	font-size: 2em;
+	color: #1da1f2;
+}
+
+#sign_up, #sign_in {
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	font-weight: bold;
+	outline: none;
+}
+
+#sign_up {
+	background-color: #1da1f2;
+	border: none;
+	color: white;
+}
+
+#sign_in {
+	background-color: white;
+	border: 1px solid #1da1f2;
+	color: #1da1f2;
+}
+
+
+#sign_up:visited, #sign_in:visited {
+	outline: none;
+}
+
+#sign_up:hover, #sign_in:hover {
+	cursor: pointer;
+}
+
+#sign_up:hover {
+	background-color: #0000cc;
+}
+
+#sign_up:active {
+	background-color: black;
+}
+
+#sign_in:hover {
+	background-color: #e6faff;
+}
+
+#sign_in:active {
+	background-color: #0000cc;
+	color: white;
+}
+
+#footer > table {
+	display: inline;
+	font-size: 0.9em;
+}
+
+#row {
+	color: grey;
+}

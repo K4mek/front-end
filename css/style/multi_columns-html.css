@@ -1,0 +1,10 @@
+div { padding: 10px; }
+
+.col {
+	column-count: 4;
+	column-gap: 40px;
+	column-rule-width: 1px;
+	column-rule-style: solid;
+	column-rule-color: orange;
+	column-fill: 10px;
+}

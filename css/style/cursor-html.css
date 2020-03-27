@@ -1,0 +1,46 @@
+p { 
+	text-align: center;
+	font-family: monospace;
+	font-size: 200%;
+	border: 2px solid black;
+	background-color: blue;
+	padding: 10px;
+	width: 20%;
+	border-radius: 10px;
+}
+
+p:hover {background-color: lightblue;}
+
+body { background-color: lightgrey; }
+
+#auto { cursor: auto; }
+
+#crosshair { cursor: crosshair; }
+
+#dafault { cursor: default; }
+
+#pointer { cursor: pointer; }
+
+#move { cursor: move; }
+
+#e-resize { cursor: e-resize; }
+
+#ne-resize { cursor: ne-resize; }
+
+#nw-resize { cursor: nw-resize; }
+
+#n-resize { cursor: n-resize; }
+
+#se-resize { cursor: se-resize; }
+
+#sw-resize { cursor: sw-resize; }
+
+#s-resize { cursor: s-resize; }
+
+#w-resize { cursor: w-resize; }
+
+#text { cursor: text; }
+
+#wait { cursor: wait; }
+
+#help { cursor: help; }

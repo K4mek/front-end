@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+div {
+	width: 150px; height: 150px;
+	background-color: lightgreen;
+}
+
+#div1 {
+	position: relative; left: 400px; top: 30px;
+	border-radius: 30px;
+}
+
+#div2 {
+	position: relative; left: 400px; top: 50px;
+	border-top-left-radius: 30px; border-top-right-radius: 60px;
+	border-bottom-left-radius: 10px; border-bottom-right-radius: 30px;
+}
+
+#div3 {
+	position: relative; left: 400px; top: 70px;
+	border-top-left-radius: 20px; border-top-right-radius: 70px;
+	border-bottom-left-radius: 70px; border-bottom-right-radius: 20px;
+}

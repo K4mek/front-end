@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+div {
+	margin: auto;
+	background-color: lightgrey;
+	width: 400px;
+	padding: 30px;
+	margin-top: 50px;
+	border-radius: 5px;
+	border: 1px solid blue;
+}
+
+label {
+	font-size: 1.2em;
+	font-family: monospace;
+}
+
+input, button {
+	margin: 5px;
+}
+
+label {
+	margin-left: 10px;
+	margin-top: 13px;
+}
+
+input, button, select {
+	border-radius: 5px;
+	padding: 10px;
+}
+
+select {
+	width: 96%;
+	margin: 5px;
+}
+
+button {
+	width: 96%;
+	background-color: green;
+	font-size: 1.2em;
+	color: white;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: lightgreen;
+	color: black;
+}
+
+button:active {
+	background-color: yellow;
+}
+
+input {
+	outline: none;
+	width: 90%;
+	font-size: 1em;
+}
+
+input:focus {
+	outline: 2px solid green;
+}

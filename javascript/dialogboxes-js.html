@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>dialog boxes</title>
+		<script language="javascript" type="text/javascript">
+			<!--
+				function warn() {
+					alert("this is a warning message");
+				}
+				function confirmation() {
+					var getConfirmation = confirm("yes or no?");
+					if (getConfirmation == true) {
+						alert("YES!");
+						return;
+					}
+					alert("NO!");
+				}
+				function interaction() {
+					var text = prompt("anything", "anything here");
+					alert(text);
+				}
+			//-->
+		</script>
+	</head>
+
+	<body>
+		<form action="">
+			alert: <input type="button" value="click me" onclick="warn();" /><br />
+			confirmation: <input type="button" value="click me" onclick="confirmation();"><br />
+			prompt: <input type="button" value="click me" onclick="interaction();" />
+		</form>
+	</body>
+</html>

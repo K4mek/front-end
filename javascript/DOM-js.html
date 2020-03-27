@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width initial-scale=1.0"/>
+		<title>Document Object Model</title>
+		<script language="javascript" type="text/javascript">
+			<!--
+				try {
+					function cpfValidation() {
+						var inputElement = document.getElementById("cpf").value;
+						var regexp = /\d{3}\.\d{3}\.\d{3}-\d{2}/i;
+						return regexp.test(inputElement);
+					}
+					function cepValidation() {
+						var inputElement = document.getElementById("cep").value;
+						var regexp = /\d{5}-\d{3}/i;
+						return regexp.test(inputElement);
+					}
+					function validation() {
+						if (cpfValidation() && cepValidation()) {
+							document.getElementById("val").style = "background-color: lightgreen;"
+							document.body.style = "background-color: black;"
+						}
+						else {
+							document.getElementById("val").style = "background-color: tomato;"
+							document.body.style = "background-color: white;"
+						}
+					}
+				}
+				catch (err) {
+					console.log(err.name);
+				}	
+			//-->
+		</script>
+		<style type="text/css">
+			body {
+				margin: 0;
+			}
+			form {
+				width: 200px;
+				margin: auto;
+				margin-top: 50px;
+				padding: 100px;
+				background-color: tomato;
+				border: 1px solid black;
+				outline: none;
+				text-align: center;
+			}
+			input {
+				border: 1px solid black;
+				width: 100%;
+				text-align: center;
+				padding: 5px;
+				border-radius: 7px;
+			}
+			#cep { margin-top: 10px; }
+			input:focus {
+				outline: 2px solid black;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div>
+			<form id="val" action="">
+				<input id="cpf" type="text" placeholder="xxx.xxx.xxx-xx" onkeyup="validation();"/>
+				<input id="cep" type="text" placeholder="xxxxx-xxx" onkeyup="validation();"/>
+			</form>
+		</div>
+	</body>
+</html>

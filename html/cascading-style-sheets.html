@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Cascading Style Sheets(CSS)</title>
+		<!-- usando CSS externo -->
+		<link rel="stylesheet" type="text/css" href=".CSSs/sheets.css">
+		<!-- usando CSS interno -->
+		<style type="text/css">
+			.orange {
+				color:orange;
+			}
+			.blue {
+				color:blue;
+			}
+			.purple {
+				color:purple;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!-- css com regras externas -->
+		<h3>regras CSS externas(.css)</h3>
+		<p>isso eh <span class="green">verde</span></p>
+		<p>isso eh <span class="red">vermelho</span></p>
+		<p>isso eh <span><b>Bold</b></span></p><!-- <span class="bold">Bold</span></p> -->
+		<p>isso eh <span class="red">vermelho</span>
+			e <span class="green">verde</span> e <span><b>Bold</b></span></p><!-- <span class="bold">Bold</span></p> -->
+		<hr class="border" />
+		<h3>regras CSS internas</h3>
+		<p>isso eh <span class="orange">laranja</span></p>
+		<p>isso eh <span class="blue">azul</span></p>
+		<p>isso eh <span class="purple">roxo</span></p>
+		<p>isso eh <span class="orange">laranja</span>,
+			<span class="blue">azul</span> e
+			<span class="purple">roxo</span>
+		</p>
+	</body>
+</html>

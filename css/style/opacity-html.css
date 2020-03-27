@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@keyframes frame {
+	from {
+		opacity: 0.1;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+img {
+	width: 32%;
+	display: inline-block;
+	margin-top: 50px;
+	opacity: 0.1;
+}
+
+#img1:hover {
+	border: 3px solid black;
+	animation-name: frame;
+	animation-duration: 4s;
+	opacity: 1;
+}
+
+#img2:hover {
+	border: 3px solid black;
+	animation-name: frame;
+	animation-duration: 2s;
+	opacity: 1;
+}
+
+#img3:hover {
+	border: 3px solid black;
+	animation-name: frame;
+	animation-duration: 1s;
+	opacity: 1;
+}

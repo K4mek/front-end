@@ -1,0 +1,54 @@
+body {
+    background: url("http://www.blogmais.org/ourimg/big/0/1457_wallpaper-website.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+#site_title {
+    text-align: center;
+    font-size: 250%;
+    font-weight: bold;
+    color: white;
+    font-family: monospace;
+}
+
+input[type="text"]{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input[type="text"]:focus {
+    border: 3px solid blue;
+}
+
+fieldset {
+    width: 30%;
+    border-color: black;
+    padding: inherit;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 250%;
+}
+
+div[align="right"] {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+input[type="button"] {
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FF6633;
+    color: white;
+    font-family: monospace;
+}
+
+input[type="button"]:hover {
+    background-color: yellow;
+}
+
+input[type="button"]:active {
+    background-color: red;
+}

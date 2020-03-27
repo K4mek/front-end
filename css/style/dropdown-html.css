@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+.dropdown {
+	width: 300px;
+}
+
+.content {
+	background-color: rgba(200, 200, 200, 0.6);
+	margin-top: 10px;
+	width: 100px;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+	display: none;
+}
+
+b:hover { 
+	color: red;
+}
+
+b {
+	background-color: lightgreen;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.dropdown:hover .content {
+	display: inline-block;
+}
+
+.linkdown span {
+	position: absolute; top: 200px; left: 10px;
+}
+
+
+.link_content {
+	position: absolute; top: 220px; left: 15px;
+	display: none;
+}
+
+a {
+	position: relative;
+	color: black;
+	text-decoration: none;
+	font-size: 1.2em;
+	letter-spacing: 3px;
+}
+
+a:hover {
+	background-color: lightgrey;
+}
+
+.linkdown:hover .link_content {
+	display: inline-block;
+}
